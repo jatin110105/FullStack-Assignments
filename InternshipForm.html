@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <h1>Student Registration Form</h1>
+        <form action="/register" method="post">
+            <label for="FullName"> Full Name:</label>
+            <input type="text" id="FullName", name="Full Name" placeholder="Enter Name...">
+            <br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your Email...">
+            <br>
+            
+            <label for="PhoneNumber">Phone Number:</label>
+            <input type="number" id="PhoneNumber" name="PhoneNumber" placeholder="Enter your Phone Number...">
+            <br>
+
+
+            <label for="Password">Password:</label>
+            <input type="password" id="Password" name="Password" placeholder="Enter your Password..">
+            <br>
+
+            <label for="DOB">Date of Birth:</label>
+            <input type="Date" id="DOB" name="DOB" placeholder="Enter your Date of Birth...">
+            <br>
+
+            <label for="Gender">Gender:</label>
+            <input type="radio" value="Male" name="Gender" id="Male">
+            <label for="Male">Male</label>
+            <input type="radio" value="Female" name="Gender" id="Female">
+            <label for="Female">Female</label>
+             <input type="radio" value="Other" name="Gender" id="Other">
+            <label for="Other">Other</label>
+            <br>
+            <label for="Courses">Courses:</label>
+            <br>
+            <select name="branch">
+                <option value="CSE" id="CSE">CSE</option>
+                <option value="IT" id="IT">IT</option>
+                <option value="ECE" id="ECE">ECE</option>
+                <option value="Mechanical" id="Mechanical">Mechanical</option>
+            </select>
+            <label for="CSE">CSE</label>
+            <br>
+
+            <label for="Skills">Skills</label>
+            <input type="radio" value="HTML" name="Skills" id="HTML">
+            <label for="HTML">HTML</label>
+
+            <input type="radio" value="CSS" name="Skills" id="CSS">
+            <label for="CSS">CSS</label>
+
+            <input type="radio" value="JavaScript" name="Skills" id="JavaScript">
+            <label for="JavaScript">JavaScript</label>
+
+             <input type="radio" value="Java" name="Skills" id="Java">
+            <label for="Java">Java</label>
+
+             <input type="radio" value="React" name="Skills" id="React">
+            <label for="React">React</label>
+            <br>
+
+            <label for="Internship Prefernce">Internship Preference:</label>
+            <input type="radio" value="Onsite" name="Internship Preference" id="Onsite">
+            <label for="Onsite">Onsite</label>
+
+            <input type="radio" value="Online" name="Internship Preference" id="Online">
+            <label for="Online">Online</label>
+            <br>
+            <label for="Resume">Resume:</label>
+            <input type="file" value="Resume" name="Resume" id="Resume">
+            <br>
+            <label for="CoverLetter">Cover Letter:</label>
+            <br>
+            <textarea id="CoverLetter" name="CoverLetter">Write you text here</textarea>
+            <br>
+
+            <button id="Submit" name="Submit">Submit</button>
+            <button type ="reset" row="5" cols ="20" id="Reset" name="Reset">Reset</button>
+            
+        </form>
+    </body>
+</html>
